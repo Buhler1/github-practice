@@ -1,5 +1,32 @@
-div {
-    height: 100px;
-    width: 100px;
-    background-color: blue;
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    height: 500px;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    height: 2000px;
+}
+
+#right {
+    background-image: url(./photos/eriks-abzinovs-V5r0SS_4QYw-unsplash.jpg);
+}
+
+#middle {
+    background-image: url(./photos/billy-huynh-W8KTS-mhFUE-unsplash.jpg);
+}
+
+#left {
+    background-image: url(./photos/colin-watts-OttsVAS4a84-unsplash.jpg);
 }
